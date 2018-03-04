@@ -1,0 +1,4 @@
+Feature:Login Feature
+
+Scenario:Verify that user is able to login with valid username and password
+

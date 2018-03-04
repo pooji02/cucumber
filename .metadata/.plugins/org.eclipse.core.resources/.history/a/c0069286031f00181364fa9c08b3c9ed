@@ -1,0 +1,12 @@
+package Tests;
+
+import cucumber.api.java.en.Given;
+
+public class LoginStepDefinitions {
+	@Given("A user is on Demoqa.com")
+	public void OpenDemoQA(){
+		
+		
+		
+	}
+}

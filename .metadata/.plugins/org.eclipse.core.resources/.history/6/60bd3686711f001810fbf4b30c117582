@@ -1,0 +1,40 @@
+package Tests;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class LoginStepDefinitions{
+	
+@Given("^A user is on Demoqa\\.com$")
+public void A_user_is_on_Demoqa_com() throws Throwable {
+ WebDriver 	driver = new ChromeDriver();
+ driver.get("http://store.demoqa.com");
+}
+
+@When("^User clicks on MyAccount link$")
+public void user_clicks_on_MyAccount_link() throws Throwable {
+	 System.out.println("User clicked on MyAccount link");
+}
+
+@Then("^User is taken to login page$")
+public void user_is_taken_to_login_page() throws Throwable {
+	 System.out.println("User is taken to login page");
+}
+
+@When("^User enters a valid user name and password$")
+public void user_enters_a_valid_user_name_and_password() throws Throwable {
+	 System.out.println("User enters a valid user name and password");
+}
+
+@Then("^User is able to login successfully$")
+public void user_is_able_to_login_successfully() throws Throwable {
+	 System.out.println("User is able to login successfully ");
+}
+
+
+
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CucumberRunner" project="Automation" tests="5" started="5" failures="0" errors="2" ignored="4">
+  <testsuite name="TestRunners.CucumberRunner" time="0.002">
+    <testsuite name="Feature: Login functionality for DemoQA.com" time="0.002">
+      <testsuite name="Scenario: Verify that user is able to successfully login  to demoqa.com web site" time="0.001" incomplete="true">
+        <error>java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:124)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Tests.LoginStepDefinitions.A_user_is_on_Demoqa_com(LoginStepDefinitions.java:14)
+	at ✽.Given A user is on Demoqa.com(Login.feature:4)
+
+</error>
+        <testcase name="Given A user is on Demoqa.com" classname="Scenario: Verify that user is able to successfully login  to demoqa.com web site" time="0.001">
+          <error>java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:124)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Tests.LoginStepDefinitions.A_user_is_on_Demoqa_com(LoginStepDefinitions.java:14)
+	at ✽.Given A user is on Demoqa.com(Login.feature:4)
+
+</error>
+        </testcase>
+        <testcase name="When User clicks on MyAccount link" classname="Scenario: Verify that user is able to successfully login  to demoqa.com web site" time="0.0" ignored="true"/>
+        <testcase name="Then User is taken to login page" classname="Scenario: Verify that user is able to successfully login  to demoqa.com web site" time="0.0" ignored="true"/>
+        <testcase name="When User enters a valid user name and password" classname="Scenario: Verify that user is able to successfully login  to demoqa.com web site" time="0.0" ignored="true"/>
+        <testcase name="Then User is able to login successfully" classname="Scenario: Verify that user is able to successfully login  to demoqa.com web site" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

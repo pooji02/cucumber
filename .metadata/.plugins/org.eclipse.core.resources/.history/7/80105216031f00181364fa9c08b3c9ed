@@ -1,0 +1,7 @@
+package Tests;
+
+public class LoginStepDefinitions {
+
+	public void OpenDemoQA{
+	
+}

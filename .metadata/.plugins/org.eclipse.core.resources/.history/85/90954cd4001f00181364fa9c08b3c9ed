@@ -1,0 +1,6 @@
+Feature:  Login functionality for DemoQA.com
+
+Scenario: Verify that user is able to successfully login  to demoqa.com website
+ 			Given a user is on DemoQa.com
+			When user clicks on MyAccount link
+			Then user is taken to login page

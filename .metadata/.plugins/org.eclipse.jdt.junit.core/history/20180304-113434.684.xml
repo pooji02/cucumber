@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CucumberRunner" project="Automation" tests="5" started="5" failures="0" errors="2" ignored="3">
+  <testsuite name="TestRunners.CucumberRunner" time="0.01">
+    <testsuite name="Feature: Login functionality for DemoQA.com" time="0.01">
+      <testsuite name="Scenario: Verify that user is able to successfully login  to demoqa.com web site" time="0.0" incomplete="true">
+        <error>java.lang.Error: Unresolved compilation problem: 
+	WebElement cannot be resolved to a type
+
+	at Tests.LoginStepDefinitions.user_clicks_on_MyAccount_link(LoginStepDefinitions.java:22)
+	at ✽.When User clicks on MyAccount link(Login.feature:5)
+
+</error>
+        <testcase name="Given A user is on Demoqa.com" classname="Scenario: Verify that user is able to successfully login  to demoqa.com web site" time="0.0"/>
+        <testcase name="When User clicks on MyAccount link" classname="Scenario: Verify that user is able to successfully login  to demoqa.com web site" time="0.0">
+          <error>java.lang.Error: Unresolved compilation problem: 
+	WebElement cannot be resolved to a type
+
+	at Tests.LoginStepDefinitions.user_clicks_on_MyAccount_link(LoginStepDefinitions.java:22)
+	at ✽.When User clicks on MyAccount link(Login.feature:5)
+
+</error>
+        </testcase>
+        <testcase name="Then User is taken to login page" classname="Scenario: Verify that user is able to successfully login  to demoqa.com web site" time="0.001" ignored="true"/>
+        <testcase name="When User enters a valid user name and password" classname="Scenario: Verify that user is able to successfully login  to demoqa.com web site" time="0.001" ignored="true"/>
+        <testcase name="Then User is able to login successfully" classname="Scenario: Verify that user is able to successfully login  to demoqa.com web site" time="0.005" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

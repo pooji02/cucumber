@@ -1,0 +1,5 @@
+Feature:Login Feature
+
+Scenario:Verify that user is able to login with valid username and password
+		Given:A user is in ToolsQA page
+		Then:User is able to login successfully

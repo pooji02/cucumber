@@ -1,0 +1,6 @@
+package TestRunners;
+
+@RunWith(Cucumber.class)
+public class CucumberRunner {
+
+}
