@@ -1,6 +1,0 @@
-Feature:  Login functionality for DemoQA.com
-
-Scenario: Verify that user is able to successfully login  to demoqa.com web site
- 			Given A user is on Demoqa.com
-			When User enters a valid user name and password
-			Then User is able to login successfully 
