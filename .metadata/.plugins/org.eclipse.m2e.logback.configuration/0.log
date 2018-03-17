@@ -64,3 +64,4 @@
 2018-03-04 10:44:52,084 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/neo/Desktop/Pooja/Workspace/MavenLearning/src/main/resources
 2018-03-04 10:44:52,100 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-03-04 10:44:52,101 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/neo/Desktop/Pooja/Workspace/MavenLearning/src/test/resources
+2018-03-17 11:10:25,090 [Worker-0: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
